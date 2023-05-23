@@ -81,7 +81,7 @@ const Screen = () => {
   return (
     <div className="w-fit flex flex-col items-center mx-auto">
       <div className=" w-full mt-24 -mb-12 bg-gray-400 flex justify-between px-24">
-        <div className="">Mevcut Adım : {open} </div>
+        <div className="">Mevcut Adım : {!isOpen ? open : "YayaGeçiş"} </div>
         <div>Sonraki Adıma Kalan Süre : {timer}</div>
       </div>
       <div className="flex justify-center items-center">
